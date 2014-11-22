@@ -1,20 +1,23 @@
 {
 	"name": "artycles-api",
-	"description": "A node module to perform api requests to Artycles",
+	"description": "Remote API in Node.js for Artycles",
 	"version": "0.0.1",
 	"author": "kdi",
 	"contributors": [
 		{ "name": "Makis Tracend", "email": "makis@kdi.co" }
 	],
-	"homepage": "http://artycl.es", 
+	"homepage": "http://artycl.es",
 	"keywords": ["artycles", "aggregate", "api", "json"],
 	"repository": {
 	"type": "git",
 		"url": "git://github.com/artycles/node.git"
 	},
-	"engines": { "node": "0.8.x" }, 
+	"engines": { "node": ">=0.8.x" },
 	"main": "index",
 	"bin": {},
 	"dependencies": {
+		"underscore": "*",
+		"passport": "*",
+		"passport-artycles": "*"
 	}
 }
